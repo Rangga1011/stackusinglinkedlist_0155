@@ -34,7 +34,9 @@ public:
 
     // pop operation: remove the topmost element from the stuck
     void pop() {
-
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+        }
     }
 };
 
