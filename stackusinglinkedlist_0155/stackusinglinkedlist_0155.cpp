@@ -31,6 +31,11 @@ public:
         cout << "Push Value: " << value << endl;
         return 0;
     }
+
+    // pop operation: remove the topmost element from the stuck
+    void pop() {
+
+    }
 };
 
 
